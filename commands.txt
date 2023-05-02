@@ -1,0 +1,5 @@
+Postgres is deployed and available as srv-captain--dbpostgres:5432 to other apps.
+For example with Node.js: const client = new Client({
+user: 'dbuser',
+host: 'srv-captain--dbpostgres',
+database: 'postgres', password: 'dbpsw', port: 5432})
